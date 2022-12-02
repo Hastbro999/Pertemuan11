@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.robolectric:robolectric:4.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.robolectric/robolectric/4.7.1/d5ab0cd133b60e22b72b108c33dcddf94c36efad/robolectric-4.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.robolectric/robolectric/4.7.1/88c4a31b2b8ed04c1e98411566066e4146ffa636/robolectric-4.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.robolectric/robolectric/4.7.1/37aed414a86e9e19bb13d20598380a593c1310b5/robolectric-4.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
