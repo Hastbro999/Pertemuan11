@@ -6,6 +6,7 @@ import com.rafsan.picsumphotoapp.data.model.ImageListItem
 import kotlinx.coroutines.flow.Flow
 
 interface ImageListRepository {
+    // untuk mendapatkan data image list
     suspend fun getImages(): Flow<PagingData<ImageListItem>>
     suspend fun saveImageItem(item: ImageListItem): Long
     suspend fun getSavedImages(): PagingSource<Int, ImageListItem>

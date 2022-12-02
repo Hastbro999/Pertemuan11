@@ -29,7 +29,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(),
     lateinit var imageAdapter: ImageAdapter
 
     override fun getVM(): MainViewModel = mainViewModel
-
+    // untuk mendapatkan view model, karena kita menggunakan hilt maka kita tidak perlu lagi membuat
     override fun bindVM(binding: ActivityMainBinding, vm: MainViewModel) =
         with(binding) {
             val rLayoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)

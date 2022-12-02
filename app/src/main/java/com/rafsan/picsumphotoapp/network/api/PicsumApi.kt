@@ -7,7 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface PicsumApi {
-
+    // untuk mendapatkan data image list
     @GET("v2/list")
     suspend fun getImages(
         @Query("page")

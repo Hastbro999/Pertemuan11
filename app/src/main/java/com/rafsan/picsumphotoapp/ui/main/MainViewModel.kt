@@ -16,7 +16,7 @@ import javax.inject.Inject
 class MainViewModel @Inject constructor(
     private val repository: ImageListRepositoryImpl
 ) : BaseViewModel() {
-
+    // untuk mendapatkan data dari repository, karena kita menggunakan hilt maka kita tidak perlu lagi membuat
     private val TAG = "MainViewModel"
     private lateinit var _imageResponse: Flow<PagingData<ImageListItem>>
     val imageResponse: Flow<PagingData<ImageListItem>>

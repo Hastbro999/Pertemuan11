@@ -12,6 +12,7 @@ class Constants {
         const val TAG = "PicsumPhotoApp"
         const val IMAGE_QUALITY = 80
 
+        // untuk menentukan base url berdasarkan product flavor
         private fun getBaseUrlByProductFlavor(): String {
             if (BuildConfig.IS_PROD) {
                 //For prod environment

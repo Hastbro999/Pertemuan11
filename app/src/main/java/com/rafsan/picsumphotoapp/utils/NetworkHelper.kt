@@ -10,6 +10,7 @@ import javax.inject.Singleton
 
 @Singleton
 class NetworkHelper @Inject constructor(@ApplicationContext private val context: Context) {
+    // untuk mengecek koneksi internet
 
     @Suppress("DEPRECATION")
     fun isNetworkConnected(): Boolean {

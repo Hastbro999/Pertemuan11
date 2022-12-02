@@ -15,6 +15,7 @@ import com.rafsan.picsumphotoapp.data.model.PageKey
     exportSchema = false
 )
 abstract class ImageListDb : RoomDatabase() {
+    // untuk mendapatkan dao, untuk mengakses database
 
     abstract fun getImageListDao(): ImageListDao
     abstract fun pageKeyDao(): PageKeyDao
